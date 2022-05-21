@@ -1,0 +1,21 @@
+▶ Parsing command line ...
+
+▶ Initializing Docker Compose ...
+
+▶ Setting up error handling ...
+
+▶ Checking for latest commit ... 
+skipped
+
+▶ Checking minimum requirements ...
+Found Docker version 20.10.13
+Found Docker Compose version 1.29.2
+Unable to find image 'busybox:latest' locally
+latest: Pulling from library/busybox
+554879bb3004: Pulling fs layer
+554879bb3004: Verifying Checksum
+554879bb3004: Download complete
+554879bb3004: Pull complete
+Digest: sha256:caa382c432891547782ce7140fb3b7304613d3b0438834dce1cad68896ab110a
+Status: Downloaded newer image for busybox:latest
+FAIL: Required minimum CPU cores available to Docker is 2, found 1
