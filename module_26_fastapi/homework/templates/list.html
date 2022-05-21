@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipie list</title>
+</head>
+<body>
+    <h1>Recipies List</h1>
+    {% for recipie in recipies %}
+        <a href="/{{ recipie.id }}">{{ recipie.title }}</a> - {{ recipie.time }}mins viewed: {{ recipie.count }} times
+        <br>
+    {% endfor %}
+</body>
+</html>
